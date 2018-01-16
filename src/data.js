@@ -1,21 +1,18 @@
 module.exports = {
-  title: 'John Smith',
-  header: "Hi, I'm John Smith",
-  description: "I'm a college junior currently taking up Computer Science in University X. I'm a freelance developer with 4 years of experience, having worked with clients such as X, Y, Z. I enjoy building everything from small business sites to rich interactive web apps.",
-  name: 'John Smith',
-  footerTitle: 'Software Engineer',
-  email: 'johnsmith@mail.com',
+  title: 'Aaron Ayub',
+  header: "Hi, I'm Aaron Ayub",
+  description: "In the process of transitioning to the tech field to pursue my passion of learning and using technology to help people. Pushing myself to expand my knowledge on web development. Graduate at LEARN Academy Full Stack Javascript bootcamp in San Diego, specializing in React+Redux/Express. Recent experience as a Web Developer intern at CourseKey, a higher education software company.",
+  name: 'Aaron Ayub',
+  footerTitle: 'Full Stack Web Developer',
+  email: '12aayub@gmail.com',
   cta: {
-    label: 'Get my resume',
-    url: 'resume.pdf',
+    label: 'My resume',
+    url: 'https://www.dropbox.com/s/ovydyr2zsngcroi/resume-aaron-ayub.pdf?dl=0',
   },
   socials: [
-    { icon: 'twitter', url: '//' },
-    { icon: 'github-circled', url: '//' },
-    { icon: 'mail-alt' }, // mail alt automatically links to mailto:email
-    { icon: 'dribbble', url: '//' },
-    { icon: 'skype', url: '//' },
-    { icon: 'linkedin-squared', url: '//' },
+    { icon: 'github-circled', url: 'https://github.com/12aayub/' },
+    { icon: 'skype', url: 'aaron.a023/' },
+    { icon: 'linkedin-squared', url: 'https://www.linkedin.com/in/aaron-ayub/' },
   ],
   projects: [
     {
