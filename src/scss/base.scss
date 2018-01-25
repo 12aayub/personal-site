@@ -23,6 +23,7 @@ body {
 .container {
   padding: 0 20px 20px 20px;
   margin: 0 auto;
+  position: relative;
 
   @media #{$tablet} {
     max-width: 900px;
@@ -54,13 +55,19 @@ body {
 }
 
 .skill-tags {
+  user-select: none;
   @media #{$tablet} {
     margin-left: 10px;
+    user-select: none;
   }
 }
 
 .skill-tag {
-  background-color: $tag-color;
+  border-radius: 25px;
+  background-color: rgb(182, 182, 182);
+  color:#000;
+  font-size: 12px;
+  font-weight: bold;
   display: inline-block;
   padding: 4px 8px;
 }

@@ -1,4 +1,15 @@
 .header-container {
+  padding: 0 20px 20px 20px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background-image: url('../../img/background.png');
+  background-repeat: no-repeat;
+  color: white;
+  @media #{$tablet} {
+    padding: 0 30px 50px 30px;
+    color: white;
+  }
   &__img {
     position: fixed;
     top: 0;
