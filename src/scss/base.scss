@@ -55,10 +55,12 @@ body {
 }
 
 .skill-tags {
+  background-color: rgb(182, 182, 182);
   user-select: none;
   @media #{$tablet} {
     margin-left: 10px;
     user-select: none;
+    background-color: rgb(182, 182, 182);
   }
 }
 
