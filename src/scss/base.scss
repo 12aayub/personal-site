@@ -20,6 +20,11 @@ body {
   box-sizing: border-box;
 }
 
+.work-logo {
+  display: block;
+  margin: 0 auto;
+}
+
 .container {
   padding: 0 20px 20px 20px;
   margin: 0 auto;
@@ -55,12 +60,10 @@ body {
 }
 
 .skill-tags {
-  background-color: rgb(182, 182, 182);
   user-select: none;
   @media #{$tablet} {
     margin-left: 10px;
     user-select: none;
-    background-color: rgb(182, 182, 182);
   }
 }
 
@@ -71,7 +74,7 @@ body {
   font-size: 12px;
   font-weight: bold;
   display: inline-block;
-  padding: 4px 8px;
+  padding: 6px 9px 5px;
 }
 
 .testimonial {
